@@ -1,0 +1,1649 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+.main-container{
+    
+    display: flex;
+    gap: 50px;;
+    justify-content: space-evenly;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    align-items: center;
+    height: 100px;
+}
+
+.scontain ul li a {
+    /* margin: 5px; */
+    text-decoration: none;
+    color: black;
+    /* font-weight: 500; */
+    position: relative;
+    color: white;
+    /* margin: 2px 14px; */
+    /* font-size: 18px; */
+    transition-duration: 1s;
+  }
+
+  .scontain ul li a:active {
+    color: red;
+  }
+  .scontain ul li a:hover {
+    color: rgb(243, 7, 7);
+    transition-duration: 1s;
+  }
+  
+  .scontain ul li a::before {
+    content: "";
+    height: 2px;
+    width: 0px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    transition-duration: 1s;
+  }
+  .scontain ul li a:hover::before {
+    width: 100%;
+    transition-duration: 1s;
+    background-color: rgb(243, 7, 7);
+  }
+
+
+
+
+.scontain ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+    justify-content: space-evenly;
+    /* margin-top: 30px; */
+    align-items: center;
+    /* padding: 10px; */
+}
+
+.main-item{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    /* margin-tp: 20px; */
+    padding: 50px;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+}
+
+.items1{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GT904_WORLDWIDE-768x768.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+
+
+.items2{
+    /* background-color: blue; */
+    /* height: 150px; */
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    background-image: url(GT903_RANSOM-768x768.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+
+}
+.items3{
+    /* background-color: blue; */
+    /* height: 150px; */
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    background-image: url(GT902_PRIDE-768x768.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+
+.items4{
+    /* background-color: blue; */
+    /* height: 150px; */
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    background-image: url(gangsta-jesus-cameo-768x768.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.items5{
+    /* background-color: blue; */
+    /* height: 150px; */
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    background-image: url(GT-LIONFACE-768x768.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.items6{
+    /* background-color: blue; */
+    /* height: 150px; */
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    background-image: url(GT-TOMORROWALWAYS-768x768.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.items7{
+    /* background-color: blue; */
+    /* height: 150px; */
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    background-image: url(Unstoppable-Tee-768x768.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.items8{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    background-image: url(fueled-mug-1-768x768.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.items9{
+    /* background-color: blue; */
+    /* height: 150px; */
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    background-image: url(Gangsta-Jesus-Cover-Photo-768x768.jpg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.items10{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    background-image: url(greatness-2024-scaled-1.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.items11{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    background-image: url(GT-NEWYEAR_.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.items12{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    background-image: url(stickers-768x768.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.items13{
+    /* background-color: blue; */
+    /* height: 150px; */
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    background-image: url(xmas-album.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.items14{
+    /* background-color: blue; */
+    /* height: 150px; */
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    background-image: url(GOLDEN-CROSS-BUNDLE.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.items15{
+    /* background-color: blue; */
+    /* height: 150px; */
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    background-image: url(haters-bundle.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.items16{
+    /* background-color: blue; */
+    /* height: 150px; */
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    background-image: url(god-bless-the-hater-1.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+
+.lin{
+    display: flex;
+    list-style: none;
+    /* align-items: center; */
+    margin-top: 50px; 
+    height: 50px;  
+    margin-left: 430px; 
+}
+
+.last-con{
+    display: flex;
+    list-style: none;
+    margin-left: 200px;
+    gap: 30px;
+}
+.scontain :hover{
+    color: red;
+
+}
+.tees :hover{
+    text-align: center;
+    /* margin-top: 20px; */
+    color: red;
+    text-decoration: none;
+    /* text-decoration-line: underline; */
+    /* text-decoration-thickness: 10px; */
+}
+
+
+
+.main-tees{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    /* margin-top: 0px; */
+    padding:50px;
+}
+
+/* tees */
+.tees1{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(4-THINGS-I-DO-TSHIRT-PINK-back.jpg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.tees2{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GREATNESS-HAND-TSHIRT\ \(1\).webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.tees3{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(HAND-TSHIRT-YOUTH.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.tees4{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GT308_BLACK_FRONT.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.tees5{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GT800-black.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.tees6{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GT800-red.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.tees7{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GT601-BLESSED.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.tees8{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GT801.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.tees9{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GT809.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.tees10{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GT803-CHECKERED.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.tees11{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GT806-front.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.tees12{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GT901-HATERS.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.tees13{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GT405_PRAYER-front.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.tees14{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GT302_Gold_Side_Cross-front.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.tees15{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GT706-GOT-TRUTH.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.tees16{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GT608_GOD-GOT-MY-BACK-back.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+
+/* HATS */
+.hats1{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(hat2.jpg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.hats2{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(hat1.jpg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.hats3{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(hat3.jpg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.hats4{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(Blessed-Bundle.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+
+
+.hats5{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GH601-hat.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.hats6{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GOLDEN-LION-BUNDLE.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.hats7{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(pink-hat-1.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.hats8{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(red-snapback-1.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.hats9{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(reverse-hat.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.hats10{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(Snapback_Hat-scaled-1.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.hats11{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GOLDEN-CROSS-BUNDLE.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.hats12{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(hat1.jpg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.hats13{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GH400-white-snap-blue-logo-scaled-1.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.hats14{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GH500-white-snap-red-logo-scaled-1.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.hats15{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(youth-hat-1.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+
+/* HOODIES AND SWEATS */
+.hoodies1{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GH800.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.hoodies2{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(blessed-hood.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.hoodies3{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(bundle.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.hoodies4{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GH103-GREATNESS-GOLDEN-LION.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.hoodies5{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GH104-blue.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.hoodies6{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GH104-pink.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.hoodies7{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(heart-hoodie-back.jpg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.hoodies8{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(heart-hoodie-back-pink-768x768.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.hoodies9{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(greatness-hoodie-black.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.hoodies10{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(heart-hoodie-back-pink-768x768.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.hoodies11{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GC506-SUPER-WAVY.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.hoodies12{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(Greatness_sweatpants-scaled-1.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.hoodies13{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GH105.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+
+/* music */
+.music1{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(xmas-album.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+
+.music2{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(Gangsta-Jesus-Cover-Photo-768x768.jpg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.music3{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(haters-bundle\ \(1\).webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.music4{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(god-bless-the-hater-1.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.music5{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(greatness-2024-scaled-1.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.music6{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(autographed-album.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.music7{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(love-conquers-all-digital-album.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.music8{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(preaching.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.music9{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(image0.jpeg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.youth1{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(HAND-TSHIRT-YOUTH.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+
+.youth2{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GT606_LittleGreatness-2-scaled-1.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.youth3{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(youth-hat-1.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.youth4{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(youth-greatness-scaled-1.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.Accessories1{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(BLANKET-GREATNESS.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.Accessories2{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(ice.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.Accessories3{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(fueled-mug-1-768x768.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.Accessories4{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GREATNESS-CINCH-BAG-1-scaled-1.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.Accessories5{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(stickers-768x768.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.Accessories6{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GS_101_SHORTS-scaled-1.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.Accessories7{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(beanie-1.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.Accessories8{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(BIBLE-BUNDLE-2.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.Accessories9{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(Face-Sock-Mock-Up.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.Accessories10{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(lp1.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.Accessories11{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GS103-scaled-1.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.Accessories12{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GS104-GREATNESS-PATTERN-SHORTSd.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.Accessories13{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(Face-Tattoos.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.Accessories14{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(wallet-1.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.Accessories15{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GOLDEN-CROSS-BUNDLE.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.shop1{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(BLANKET-GREATNESS.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.shop2{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(ice.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.shop3{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(fueled-mug-1-768x768.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.shop4{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GREATNESS-CINCH-BAG-1-scaled-1.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.shop5{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(stickers-768x768.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.shop6{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GS_101_SHORTS-scaled-1.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.shop7{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(beanie-1.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.shop8{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(BIBLE-BUNDLE-2.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.shop9{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(Face-Sock-Mock-Up.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.shop10{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(lp1.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.shop11{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GS103-scaled-1.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.shop12{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GS104-GREATNESS-PATTERN-SHORTSd.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.shop13{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(Face-Tattoos.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.shop14{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(wallet-1.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.shop15{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GOLDEN-CROSS-BUNDLE.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+
+.shop16{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GH800.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.shop17{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(blessed-hood.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.shop18{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(bundle.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.shop19{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GH103-GREATNESS-GOLDEN-LION.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.shop20{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GH104-blue.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.shop21{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GH104-pink.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.shop22{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(heart-hoodie-back.jpg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.shop23{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(heart-hoodie-back-pink-768x768.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.shop24{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(greatness-hoodie-black.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.shop25{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(heart-hoodie-back-pink-768x768.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.shop26{
+    /* background-color: blue; */
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GC506-SUPER-WAVY.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.shop27{
+
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(Greatness_sweatpants-scaled-1.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+.shop28{
+    height: 250px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(GH105.webp);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+
+/* 
+.fff{
+    position: relative;
+    margin-top: px;
+} */
+.maincon{
+    display: flex;
+    padding: 20px 200px;
+}
+
+/* button{
+    text-align: center;
+    display: none;
+    position: relative;
+    top: 213px;
+    border: 0rem;
+    border-color: rgb(207, 146, 33);
+    padding: 10px;
+    width: 250px;
+    height: 10px;
+    border-radius: 0.5rem 0.5rem 2rem 2rem;
+} */
+
+button{
+    text-align: center;
+    background-color: red;
+    color: white;
+    position: relative;
+    top: 211px;
+    padding: 10px;
+    width: 250px;
+    border: 0rem;
+    opacity: 0;
+    /* height: 20px; */
+    border-radius: 0.5rem 0.5rem 2rem 2rem;
+}
+
+
+button:hover{opacity: 1}
+
+a:link{
+    color: red;
+    text-decoration: none;
+    background: none;
+
+    /* background-color: blue; */
+    
+}
+
+a:active{
+    color: red,
+}
+
+.what{
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+}
+
+.sec{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+/* .dropdown{
+    list-style: none;
+    background-color: red;
+} */
+/* ul li{
+    display: block;
+    position: relative;
+} */
+
+ul.dropdown li a{
+    display: block;
+    padding: 10px 15px;
+    color: rgb(235, 16, 16);
+    text-decoration: none;
+    text-align: center;
+    /* font-size: 20px; */
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown {
+    width: 300px 200px;
+    background-color: blueviolet;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+.enu ul{
+    visibility: hidden;
+    height: 10px;
+
+}
+
+.main-container a ion-icon{
+    position: relative;
+    right: 30px;
+}
+.close,
+.ham{
+    cursor: pointer;
+}
+
+.heading1,
+.close{
+    opacity: 0;
+}
+
+
+ion-icon {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: black;
+  }
+
+  .last-con ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    text-align: center;
+  }
+
+  
+
+@media(max-width: 375px){
+    body{
+        margin: 0px;
+        padding: 0%;
+       
+    }
+    .main-container{
+        flex-direction: column;
+        text-align: center;
+        /* gap: 10px; */
+        /* padding: 50px; */
+    }
+
+    .scontain ul li{
+        flex-direction: column;
+
+    }
+
+    .main-item{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 10px;
+        /* padding: 10px;
+        width: 10px; */
+        justify-content: space-between;
+        
+    }
+/* 
+    .main-item div{
+        padding: 100px;
+    } */
+
+    .tun{
+        text-align: center;
+        font-size: 10px;
+        color: blue;
+        display: flex;
+        width: 250px;
+        margin-left: 200px;
+    }
+
+    .lin{
+        display: flex;
+       align-content: center;
+       margin-left: 150px;
+    }
+    h3{
+        align-items: center;
+        margin-left: 150px;
+    }
+
+    
+
+    .scontain ul li{
+        display: none;
+    }
+
+/* 
+    ion-icon{
+        display: flex;
+        flex-direction: column;
+    
+    } */
+
+    /* .heading1,
+    .close{
+        opacity: 10;
+    } */
+
+    /* .close{
+        visibility: hidden;
+    } */
+
+    .heading1{
+        position: relative;
+        left: 180px;
+        bottom: 600px;
+    }
+
+    .main-container {
+        height: 250px;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        }
+
+        /* .close {
+            z-index: 34;
+          } */
+
+    .heading1 {
+        opacity: 1;
+        bottom: 8px;
+     }
+
+     h3 p{
+        width: 300px;
+
+     }
+     
+     .lin{
+        align-items: center;
+        margin-left: 110px;
+     }
+     .lin img{
+        display: flex;
+        /* flex-direction: column; */
+        /* align-items: center; */
+        width: 100px;
+        gap: 10px;
+        height: 50px;
+        justify-content: center;
+     }
+        
+     .last-con ul {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        width: 20px;
+        font-size: 10px;
+        gap: 10px;
+        margin-left: -50px;
+     }
+    
+}
+    
